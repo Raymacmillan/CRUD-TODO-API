@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link href="./styles/todo.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./images/to-do-list.png">
+</head>
+<body>
+    <div class="TodoContainer">
+        <h1>TODO LIST</h1>
+        <div class="todoElements">
+            <div class="searchBar">
+                <img src="./images/search-interface-symbol.png" class="searchImg" alt="search">
+                <input type="text" placeholder="Search...">
+                <div class="optionWrapper">
+                    <select>
+                        <option value="all">All</option>
+                        <option value="one">Specific</option>
+                    </select>
+                </div>
+                <div class="mode">
+                    <img src="./images/dark.png" class="modeImg" alt="day_mode">
+                </div>
+            </div>
+            <div class="addList">
+                <img src="./images/add.png" alt="add">
+            </div>
+        </div>
+    </div>
+    <script src="app.js" type="module"></script>
+</body>
+</html>
